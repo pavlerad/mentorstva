@@ -258,7 +258,7 @@ while start not in allowed_options:
 # urlam
 
 
-
+# urlam jako
 
 
 
