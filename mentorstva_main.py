@@ -252,7 +252,7 @@ while start not in allowed_options:
         start = None
 
 
-
+# ispisivanje petlje
 
 
 
