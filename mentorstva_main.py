@@ -151,24 +151,23 @@
 import time
 import random
 # random numbers
-start = None
+options = None
 allowed_options = ["Start", "Exit", "History", "Scores"]
 game_history = []
 player_name = ""
 player_score = 0
 scores = []
-tries = 1
+tries = 10
 guess = None
+score_table = []
+max_score = 0
 
 
+while options not in allowed_options:
+    options = input("What would you like to do? (Start, Exit, History, Scores, Score Table): ").title()
 
-
-while start not in allowed_options:
-    start = input("What would you like to do? (Start, Exit, History, Scores): ").title()
-
-    if start == "Start":
-        while not player_name:
-            player_name = input("Please enter your name: ")
+    if options == "Start":
+        player_name = input("Please enter your name: ")
         print(f"\nHello, {player_name}!!!")
 
         time.sleep(2)
@@ -180,9 +179,10 @@ while start not in allowed_options:
         total_tries = 1
         print("Let`s try to guess the number between 1 and 100.\n")
         print(f"You have {tries} tries in total.\n")
+
+
         while not guess:
             guess = int(input("Let`s try to guess the number: "))
-
 
         while guess != num and tries > 0:
 
@@ -195,9 +195,8 @@ while start not in allowed_options:
             total_tries += 1
             guess = int(input(f"Incorrect! You have {tries} tries left. "))
 
-
-
         if guess == num:
+
             msg = "\n----------------CONGRATULATIONS-----------------\n"
             print(msg)
             print(f"You guessed it!!! The correct number was {num}!!!")
@@ -205,7 +204,7 @@ while start not in allowed_options:
             print(f"\nIt took you only {total_tries} tries!!!\n")
             player_score = total_tries
             print(f"\nYour score is: {total_tries}\n")
-            start = None
+            options = None
 
 
         elif tries == 0:
@@ -214,42 +213,53 @@ while start not in allowed_options:
             print(f"Game over. You had your {total_tries} tries.")
             game_history.append(f"Game over. You had your {total_tries} tries.")
             print(f"The correct number was {num}.")
-            start = None
+            options = None
 
 
 
 
-    elif start == "Exit":
+    elif  options == "Exit":
             print("You don`t want to play the game. Bye.")
             quit()
 
 
-    elif start == "History":
+    elif options == "History":
         print(game_history)
-        start = None
+        options = None
 
 
 
-    elif start == "Scores":
+    elif options == "Scores":
 
         msg = "\n------------------SCORES-------------------\n"
         for i in msg:
-            time.sleep(0.02)
+            time.sleep(0.05)
             print(i, end="")
 
         def add_scores(name, score):
             scores.append((player_name, player_score))
+            total_score = player_score
             return scores
 
         scores = add_scores(player_name, player_score)
+
         print(scores)
 
         if not scores:
             print("\nNo scores recorded yet.\n")
 
+        options = None
 
+    elif options == "Score Table":
 
-        start = None
+        def table(player, score):
+            score_table.append({"player":player_name, "score": player_score})
+            return max_score
+
+        if player_score > max_score:
+            max_score = player_score
+            print(f"{player_score} ---  {player_name}")
+            options = None
 
 
 # ispisivanje petlje
