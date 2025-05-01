@@ -254,8 +254,7 @@ while start not in allowed_options:
 
 # ispisivanje petlje
 
-# ispisujem petlju for
-
+# ispisujem petlju for i while
 
 
 
