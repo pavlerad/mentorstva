@@ -254,7 +254,7 @@ while start not in allowed_options:
 
 # ispisivanje petlje
 
-
+# cestitam
 # urlam
 
 
