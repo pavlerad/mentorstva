@@ -1,0 +1,27 @@
+[
+     {
+          "name": "Pavle",
+          "gender": "male",
+          "age": 25,
+          "height": 182,
+          "status": "married"
+     },
+     {
+          "name": "Milos",
+          "age": 20,
+          "height": 176,
+          "gender": "male"
+     },
+     {
+          "name": "Milos",
+          "age": 20,
+          "height": 176,
+          "gender": "male"
+     },
+     {
+          "name": "Milos",
+          "age": 20,
+          "height": 176,
+          "gender": "male"
+     }
+]

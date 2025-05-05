@@ -1,11 +1,11 @@
-#proizvods = ["iPhone 11", "iPhone12","iPhone13", "iPhone14", "iPhone15", "iPhone16"]
+#proizvodi = ["iPhone 11", "iPhone12","iPhone13", "iPhone14", "iPhone15", "iPhone16"]
 
-#proizvods.append("iPhone 16 Plus")
-#print(proizvods)
+#proizvodi.append("iPhone 16 Plus")
+#print(proizvodi)
 
 #item_search = input("Please enter the phone you would like to find: \n")
 
-#if item_search in proizvods:
+#if item_search in proizvodi:
    # print("\nWe have found your phone: ",item_search)
 #else:
     #print("We have not found your phone.")
@@ -45,24 +45,24 @@
 
 #import time
 
-#proizvods = {"Krevet": 300,
+#proizvodi = {"Krevet": 300,
            # "Lopta":400,
           #  "Stolica":900,
           #  "Stolnjak":30}
 
 #proizvod_search = input("Please enter your proizvod: \n").title()
 
-#if proizvod_search.title() in proizvods:
+#if proizvod_search.title() in proizvodi:
   #  print("Your proizvod,",proizvod_search,"is in the list. \n")
   #  time.sleep(3)
-   # print("Its price is set to", proizvods[proizvod_search],"$.\n")
+   # print("Its price is set to", proizvodi[proizvod_search],"$.\n")
 #else:
     #print("You proizvod is not in the list. Goodbye.")
 #input("\nPress the enter key to exit.\n")
 
-#print("Here is the list of the proizvods: \n")
+#print("Here is the list of the proizvodi: \n")
 
-#for keys, values in proizvods.items():
+#for keys, values in proizvodi.items():
    # print(f"{keys} - {values}")
 
 # import time
@@ -150,6 +150,9 @@
 
 import time
 import random
+
+from def_domaci_9 import calculate_delivery
+
 # random numbers
 options = None
 allowed_options = ["Start", "Exit", "History", "Scores"]
@@ -180,8 +183,9 @@ while options not in allowed_options:
         print("Let`s try to guess the number between 1 and 100.\n")
         print(f"You have {tries} tries in total.\n")
 
-
-        while not guess:
+        print(guess)
+        while guess is None:
+            print("Ok while")
             guess = int(input("Let`s try to guess the number: "))
 
         while guess != num and tries > 0:
@@ -194,6 +198,7 @@ while options not in allowed_options:
             tries -= 1
             total_tries += 1
             guess = int(input(f"Incorrect! You have {tries} tries left. "))
+
 
         if guess == num:
 
@@ -214,6 +219,7 @@ while options not in allowed_options:
             game_history.append(f"Game over. You had your {total_tries} tries.")
             print(f"The correct number was {num}.")
             options = None
+            guess = None
 
 
 
@@ -228,17 +234,15 @@ while options not in allowed_options:
         options = None
 
 
-
     elif options == "Scores":
 
         msg = "\n------------------SCORES-------------------\n"
         for i in msg:
             time.sleep(0.05)
-            print(i, end="")
+            print(i, end=" ")
 
         def add_scores(name, score):
             scores.append((player_name, player_score))
-            total_score = player_score
             return scores
 
         scores = add_scores(player_name, player_score)
@@ -250,27 +254,16 @@ while options not in allowed_options:
 
         options = None
 
+
     elif options == "Score Table":
-
-        def table(player, score):
-            score_table.append({"player":player_name, "score": player_score})
-            return max_score
-
-        if player_score > max_score:
-            max_score = player_score
-            print(f"{player_score} ---  {player_name}")
-            options = None
-
-
-# ispisivanje petlje
-
-# ispisujem petlju for i while
+        for score in scores:
+            score_table.append({"player": player_name, "score": player_score})
+        print(score_table)
+        options = None
 
 
 
-
-
-
+sorted_scores = sorted(scoreboard.items(), key=lambda item: item[1])
 
 
 
