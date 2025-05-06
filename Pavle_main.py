@@ -1890,7 +1890,7 @@ from turtledemo.clock import datum
 import json
 
 
-with open("data.json", "r") as file:
+with open("GIT/data/user.json", "r") as file:
     data = json.load(file)
     print(data)
     data.append({
@@ -1911,7 +1911,7 @@ print(data)
 
 
 
-with open("data.json", "w") as file:
+with open("GIT/data/user.json", "w") as file:
     json.dump(data, file, indent = 3)
     print(data)
 
