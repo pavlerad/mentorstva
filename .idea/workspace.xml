@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="456f608f-d194-4cb0-a7a5-a07afbeb7cc2" name="Changes" comment="renamed file data.json to user.json, &#10;created new file &quot;products.json&quot; and new folder &quot;data&quot;. Moved both files to the new folder.">
-      <change afterPath="$PROJECT_DIR$/methods.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vezba.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/products.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/products.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/user.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/user.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-    </list>
+    <list default="true" id="456f608f-d194-4cb0-a7a5-a07afbeb7cc2" name="Changes" comment="renamed file data.json to user.json, &#10;created new file &quot;products.json&quot; and new folder &quot;data&quot;. Moved both files to the new folder." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -53,43 +46,43 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python.9 vezbanje def.executor": "Run",
-    "Python.9 vezbanje_def.executor": "Run",
-    "Python.Domaci_8.executor": "Run",
-    "Python.Mentorstva zadaci.executor": "Run",
-    "Python.Mentorstva_zadaci.executor": "Run",
-    "Python.Pavle main.executor": "Run",
-    "Python.Pavle_main.executor": "Run",
-    "Python.def vezbanje.executor": "Run",
-    "Python.def_domaci_9.executor": "Run",
-    "Python.domaci_6.executor": "Run",
-    "Python.domaci_7.executor": "Run",
-    "Python.files.executor": "Run",
-    "Python.hangman.executor": "Run",
-    "Python.main.executor": "Run",
-    "Python.mentorstva_main.executor": "Run",
-    "Python.methods.executor": "Run",
-    "Python.pavle_info.executor": "Run",
-    "Python.vezba.executor": "Run",
-    "Python.vezbajson.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "run.code.analysis.last.selected.profile": "aDefault",
-    "settings.editor.selected.configurable": "editor.preferences.completion",
-    "two.files.diff.last.used.file": "C:/Users/Pavle/OneDrive/Desktop/Python/Mentorstva_zadaci.py",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.9 vezbanje def.executor&quot;: &quot;Run&quot;,
+    &quot;Python.9 vezbanje_def.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Domaci_8.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Mentorstva zadaci.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Mentorstva_zadaci.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Pavle main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Pavle_main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.def vezbanje.executor&quot;: &quot;Run&quot;,
+    &quot;Python.def_domaci_9.executor&quot;: &quot;Run&quot;,
+    &quot;Python.domaci_6.executor&quot;: &quot;Run&quot;,
+    &quot;Python.domaci_7.executor&quot;: &quot;Run&quot;,
+    &quot;Python.files.executor&quot;: &quot;Run&quot;,
+    &quot;Python.hangman.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.mentorstva_main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.methods.executor&quot;: &quot;Run&quot;,
+    &quot;Python.pavle_info.executor&quot;: &quot;Run&quot;,
+    &quot;Python.vezba.executor&quot;: &quot;Run&quot;,
+    &quot;Python.vezbajson.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;aDefault&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.completion&quot;,
+    &quot;two.files.diff.last.used.file&quot;: &quot;C:/Users/Pavle/OneDrive/Desktop/Python/Mentorstva_zadaci.py&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Pavle\OneDrive\Desktop\Python\data" />
@@ -98,7 +91,7 @@
       <recent name="C:\Users\Pavle\OneDrive\Desktop\Python\GIT" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.gamenumberguessing">
     <configuration name="Mentorstva_zadaci" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python" />
       <option name="ENV_FILES" value="" />
@@ -200,7 +193,7 @@
       <workItem from="1746291703976" duration="747000" />
       <workItem from="1746293082199" duration="220000" />
       <workItem from="1746302813732" duration="3409000" />
-      <workItem from="1746428758269" duration="47819000" />
+      <workItem from="1746428758269" duration="48015000" />
     </task>
     <task id="LOCAL-00001" summary="my first commit">
       <option name="closed" value="true" />
@@ -386,7 +379,31 @@
       <option name="project" value="LOCAL" />
       <updated>1746561086976</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="renamed file data.json to user.json, &#10;created new file &quot;products.json&quot; and new folder &quot;data&quot;. Moved both files to the new folder.">
+      <option name="closed" value="true" />
+      <created>1746565235374</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1746565235374</updated>
+    </task>
+    <task id="LOCAL-00025" summary="renamed file data.json to user.json, &#10;created new file &quot;products.json&quot; and new folder &quot;data&quot;. Moved both files to the new folder.">
+      <option name="closed" value="true" />
+      <created>1746565265217</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1746565265217</updated>
+    </task>
+    <task id="LOCAL-00026" summary="renamed file data.json to user.json, &#10;created new file &quot;products.json&quot; and new folder &quot;data&quot;. Moved both files to the new folder.">
+      <option name="closed" value="true" />
+      <created>1746565331714</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1746565331714</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
