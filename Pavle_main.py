@@ -1889,41 +1889,19 @@ from turtledemo.clock import datum
 
 import json
 
-
-with open("GIT/data/user.json", "r") as file:
+with open("data.json", "r") as file:
     data = json.load(file)
+    print(data[0]["name"])
+    data.append({"name": "Mara",
+                    "age": 55,
+                    "gender": "female",
+                    "height": 167})
     print(data)
-    data.append({
-
-          "name": "Petar",
-          "age": 50,
-          "gender": "male",
-          "height": 190,
-          "weight": 86})
-
-    print(data)
-
-
 
 print(data)
 
-
-
-
-
-with open("GIT/data/user.json", "w") as file:
-    json.dump(data, file, indent = 3)
-    print(data)
-
-
-
-
-
-
-
-
-
-
+with open ("data.json", "w") as file:
+    json.dump(data, file, indent = 5)
 
 
 
