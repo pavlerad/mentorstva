@@ -1,27 +1,33 @@
 [
      {
           "name": "Pavle",
-          "age": 32,
+          "age": 25,
           "gender": "male",
           "height": 174
      },
      {
           "name": "Marija",
-          "age": 40,
+          "age": 26,
           "gender": "female",
-          "height": 180
+          "height": 179
      },
      {
-          "name": "Milos",
+          "name": "Vuk",
           "age": 30,
           "gender": "male",
-          "height": 167
+          "height": 190
      },
      {
-          "name": "Mara",
-          "age": 55,
+          "name": "Marija",
+          "age": 33,
           "gender": "female",
-          "height": 167
+          "height": 156
+     },
+     {
+          "name": "Dijana",
+          "age": 23,
+          "gender": "female",
+          "height": 187
      }
 
 ]
