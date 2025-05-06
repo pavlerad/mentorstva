@@ -1887,21 +1887,33 @@ from turtledemo.clock import datum
 #bank_telephone = 45335698754
 
 
+import json
+
+
+with open("data.json", "r") as file:
+    data = json.load(file)
+    print(data)
+    data.append({
+
+          "name": "Petar",
+          "age": 50,
+          "gender": "male",
+          "height": 190,
+          "weight": 86})
+
+    print(data)
+
+
+
+print(data)
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
+with open("data.json", "w") as file:
+    json.dump(data, file, indent = 3)
+    print(data)
 
 
 

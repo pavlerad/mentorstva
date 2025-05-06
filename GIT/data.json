@@ -1,0 +1,37 @@
+[
+   {
+      "name": "Pavle",
+      "age": 31,
+      "gender": "male",
+      "height": 174,
+      "weight": 80
+   },
+   {
+      "name": "Milos",
+      "age": 42,
+      "gender": "male",
+      "height": 180,
+      "weight": 90
+   },
+   {
+      "name": "Marija",
+      "age": 30,
+      "gender": "female",
+      "height": 165,
+      "weight": 60
+   },
+   {
+      "name": "Dragana",
+      "age": 29,
+      "gender": "female",
+      "height": 170,
+      "weight": 67
+   },
+   {
+      "name": "Petar",
+      "age": 50,
+      "gender": "male",
+      "height": 190,
+      "weight": 86
+   }
+]
