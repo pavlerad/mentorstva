@@ -1,6 +1,11 @@
-import json
+from methods import load_file, save_file, delete_file
 
 
-with open("products.json", "r") as file:
-    data = json.load(file)
-    print(data)
+
+
+#products = load_file("data/products.json")
+#users = load_file("data/user.json")
+#print(products,"\n",users)
+
+
+
