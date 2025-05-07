@@ -1,0 +1,40 @@
+[
+
+    {
+      "name": "iPhone 16",
+      "model": "Pro",
+      "amount": 20,
+      "price": 1090
+    },
+
+   {
+      "name": "Samsung Galaxy S24",
+      "model": "Ultra",
+      "amount": 15,
+      "price": 1199
+    },
+
+    {
+      "name": "Google Pixel 9",
+      "model": "Pro",
+      "amount": 10,
+      "price": 999
+    },
+
+    {
+      "name": "OnePlus 12",
+      "model": "Standard",
+      "amount": 25,
+      "price": 899
+    },
+
+
+    {
+      "name": "Xiaomi 14",
+      "model": "Pro",
+      "amount": 18,
+      "price": 850
+    }
+
+
+               ]
