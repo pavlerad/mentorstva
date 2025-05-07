@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="456f608f-d194-4cb0-a7a5-a07afbeb7cc2" name="Changes" comment="renamed file data.json to user.json, &#10;created new file &quot;products.json&quot; and new folder &quot;data&quot;. Moved both files to the new folder." />
+    <list default="true" id="456f608f-d194-4cb0-a7a5-a07afbeb7cc2" name="Changes" comment="renamed file data.json to user.json, &#10;created new file &quot;products.json&quot; and new folder &quot;data&quot;. Moved both files to the new folder.">
+      <change afterPath="$PROJECT_DIR$/data.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/products.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/user.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/methods.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vezba.py" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -91,7 +98,7 @@
       <recent name="C:\Users\Pavle\OneDrive\Desktop\Python\GIT" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.gamenumberguessing">
+  <component name="RunManager">
     <configuration name="Mentorstva_zadaci" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python" />
       <option name="ENV_FILES" value="" />
@@ -194,6 +201,8 @@
       <workItem from="1746293082199" duration="220000" />
       <workItem from="1746302813732" duration="3409000" />
       <workItem from="1746428758269" duration="48015000" />
+      <workItem from="1746565410225" duration="248000" />
+      <workItem from="1746600301593" duration="860000" />
     </task>
     <task id="LOCAL-00001" summary="my first commit">
       <option name="closed" value="true" />
@@ -403,7 +412,15 @@
       <option name="project" value="LOCAL" />
       <updated>1746565331714</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="renamed file data.json to user.json, &#10;created new file &quot;products.json&quot; and new folder &quot;data&quot;. Moved both files to the new folder.">
+      <option name="closed" value="true" />
+      <created>1746565441685</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1746565441685</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
