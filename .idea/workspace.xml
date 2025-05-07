@@ -4,13 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="456f608f-d194-4cb0-a7a5-a07afbeb7cc2" name="Changes" comment="renamed file data.json to user.json, &#10;created new file &quot;products.json&quot; and new folder &quot;data&quot;. Moved both files to the new folder.">
-      <change afterPath="$PROJECT_DIR$/data.json" afterDir="false" />
+    <list default="true" id="456f608f-d194-4cb0-a7a5-a07afbeb7cc2" name="Changes" comment="created data.json">
+      <change afterPath="$PROJECT_DIR$/data/products.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/user.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vezba.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/products.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/user.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/methods.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vezba.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,43 +53,44 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Python.9 vezbanje def.executor&quot;: &quot;Run&quot;,
-    &quot;Python.9 vezbanje_def.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Domaci_8.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Mentorstva zadaci.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Mentorstva_zadaci.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Pavle main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Pavle_main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.def vezbanje.executor&quot;: &quot;Run&quot;,
-    &quot;Python.def_domaci_9.executor&quot;: &quot;Run&quot;,
-    &quot;Python.domaci_6.executor&quot;: &quot;Run&quot;,
-    &quot;Python.domaci_7.executor&quot;: &quot;Run&quot;,
-    &quot;Python.files.executor&quot;: &quot;Run&quot;,
-    &quot;Python.hangman.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.mentorstva_main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.methods.executor&quot;: &quot;Run&quot;,
-    &quot;Python.pavle_info.executor&quot;: &quot;Run&quot;,
-    &quot;Python.vezba.executor&quot;: &quot;Run&quot;,
-    &quot;Python.vezbajson.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;aDefault&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.completion&quot;,
-    &quot;two.files.diff.last.used.file&quot;: &quot;C:/Users/Pavle/OneDrive/Desktop/Python/Mentorstva_zadaci.py&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.9 vezbanje def.executor": "Run",
+    "Python.9 vezbanje_def.executor": "Run",
+    "Python.Domaci_8.executor": "Run",
+    "Python.Mentorstva zadaci.executor": "Run",
+    "Python.Mentorstva_zadaci.executor": "Run",
+    "Python.Pavle main.executor": "Run",
+    "Python.Pavle_main.executor": "Run",
+    "Python.def vezbanje.executor": "Run",
+    "Python.def_domaci_9.executor": "Run",
+    "Python.domaci_6.executor": "Run",
+    "Python.domaci_7.executor": "Run",
+    "Python.files.executor": "Run",
+    "Python.gamenumberguessing.executor": "Run",
+    "Python.hangman.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.mentorstva_main.executor": "Run",
+    "Python.methods.executor": "Run",
+    "Python.pavle_info.executor": "Run",
+    "Python.vezba.executor": "Run",
+    "Python.vezbajson.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "run.code.analysis.last.selected.profile": "aDefault",
+    "settings.editor.selected.configurable": "editor.preferences.completion",
+    "two.files.diff.last.used.file": "C:/Users/Pavle/OneDrive/Desktop/Python/Mentorstva_zadaci.py",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Pavle\OneDrive\Desktop\Python\data" />
@@ -202,7 +203,7 @@
       <workItem from="1746302813732" duration="3409000" />
       <workItem from="1746428758269" duration="48015000" />
       <workItem from="1746565410225" duration="248000" />
-      <workItem from="1746600301593" duration="860000" />
+      <workItem from="1746600301593" duration="1954000" />
     </task>
     <task id="LOCAL-00001" summary="my first commit">
       <option name="closed" value="true" />
@@ -420,7 +421,15 @@
       <option name="project" value="LOCAL" />
       <updated>1746565441685</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="created data.json">
+      <option name="closed" value="true" />
+      <created>1746601785555</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1746601785555</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -468,19 +477,21 @@
     <MESSAGE value="created data.json and added data.json file" />
     <MESSAGE value="renamed files" />
     <MESSAGE value="renamed file data.json to user.json, &#10;created new file &quot;products.json&quot; and new folder &quot;data&quot;. Moved both files to the new folder." />
-    <option name="LAST_COMMIT_MESSAGE" value="renamed file data.json to user.json, &#10;created new file &quot;products.json&quot; and new folder &quot;data&quot;. Moved both files to the new folder." />
+    <MESSAGE value="created data.json" />
+    <option name="LAST_COMMIT_MESSAGE" value="created data.json" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Python$methods.coverage" NAME="methods Coverage Results" MODIFIED="1746563787615" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python$hangman.coverage" NAME="hangman Coverage Results" MODIFIED="1746467580502" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/GIT" />
     <SUITE FILE_PATH="coverage/Python$pavle_info.coverage" NAME="pavle_info Coverage Results" MODIFIED="1746474596677" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/GIT/data" />
+    <SUITE FILE_PATH="coverage/Python$gamenumberguessing.coverage" NAME="gamenumberguessing Coverage Results" MODIFIED="1746601741678" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Pavle_main_py$Mentorstva_zadaci.coverage" NAME="Mentorstva_zadaci Coverage Results" MODIFIED="1744816712337" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Domaci_9_def_py$9_vezbanje_def.coverage" NAME="9 vezbanje_def Coverage Results" MODIFIED="1745850132676" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/domaci_6_py$mentorstva_main.coverage" NAME="mentorstva_main Coverage Results" MODIFIED="1745478537345" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python$Pavle_main.coverage" NAME="Pavle_main Coverage Results" MODIFIED="1746554846198" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Domaci_8_py$def_vezbanje.coverage" NAME="def vezbanje Coverage Results" MODIFIED="1745748624073" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Domaci_9_def_py$mentorstva_main.coverage" NAME="mentorstva_main Coverage Results" MODIFIED="1746045546538" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Python$main.coverage" NAME="main Coverage Results" MODIFIED="1746563791076" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Python$main.coverage" NAME="main Coverage Results" MODIFIED="1746602248539" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/mentorstva_main_py$Mentorstva_zadaci.coverage" NAME="Mentorstva_zadaci Coverage Results" MODIFIED="1745479471140" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Domaci_8_py$Mentorstva_zadaci.coverage" NAME="Mentorstva_zadaci Coverage Results" MODIFIED="1745825523872" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python$mentorstva_main.coverage" NAME="mentorstva_main Coverage Results" MODIFIED="1746454433526" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
