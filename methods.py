@@ -22,3 +22,9 @@ def delete_file(file_name):
 def empty_file(file_name):
     save_file(file_name, "")
     return file
+
+
+
+
+
+

@@ -1,0 +1,1 @@
+Amount: 900, User_id: 1, user_budget: 1400, remaining_budget: 500,datetime: 2025-05-10 19:14:58.725036
