@@ -1,5 +1,9 @@
 import json
 import os
+import sys
+from datetime import datetime
+date = datetime.now()
+print(date)
 
 def load_file(file_name):
     with open(file_name, "r") as file:
@@ -26,5 +30,6 @@ def empty_file(file_name):
 
 
 
-
+data = os.getcwd()
+print(data)
 

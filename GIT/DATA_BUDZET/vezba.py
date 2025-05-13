@@ -49,11 +49,13 @@ while expense <= 0 or expense > user_budget:
 
 
 
-with open ("../../logs/expense_log.txt", "w") as file:
+
+with open ("../../bank_logs/expense_log.txt", "a") as file:
     remaining_budget = user_budget - expense
     message = (f"Amount: {expense}, "
                f"User_id: {user["id"]}, "
                f"user_budget: {user_budget}, "
                f"remaining_budget: {remaining_budget},"
-               f"datetime: {datetime.now()}")
+               f"datetime: {datetime.now()}"
+               )
     file.write(message)

@@ -1,0 +1,11 @@
+
+     {    "id" : 1,
+          "name": "Pavle",
+          "age": 32,
+          "weight": 80,
+          "height": 174,
+          "credit": 500,
+          "bank_amount": 50000,
+          "currency": "EUR"
+
+     }
