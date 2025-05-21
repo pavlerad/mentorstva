@@ -32,3 +32,11 @@ time.sleep(3)
 
 for proc in process:
     print(f"{proc.name():<25} {proc.memory_percent():<10.2f} {proc.cpu_percent(): <10.2f}")
+
+
+
+import platform
+
+
+system = platform.system()
+

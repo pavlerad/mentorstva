@@ -38,6 +38,15 @@ print(f"Number of Threads in Current Process is: {number_of_threads}")
 
 
 
+mem_usage = psutil.cpu_percent(interval = 1)
+print(f"{mem_usage}%")
+
+virtual = psutil.virtual_memory()
+print(virtual)
+
+mem_giga = virtual[0] / math.pow(1024 , 3)
+print(f"Your RAM is: {round(mem_giga, 2)} GB")
+
 
 
 

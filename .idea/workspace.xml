@@ -4,17 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="456f608f-d194-4cb0-a7a5-a07afbeb7cc2" name="Changes" comment="ATM commit">
-      <change afterPath="$PROJECT_DIR$/OS/OS.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OS/OS_info.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OS/task_manager.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kalendar.py" afterDir="false" />
+    <list default="true" id="456f608f-d194-4cb0-a7a5-a07afbeb7cc2" name="Changes" comment="OS info CPU">
+      <change afterPath="$PROJECT_DIR$/Web_Browser.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GIT/DATA_BUDZET/proba_is_digit.py" beforeDir="false" afterPath="$PROJECT_DIR$/DATA_BUDZET/proba_is_digit.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GIT/DATA_BUDZET/user.json" beforeDir="false" afterPath="$PROJECT_DIR$/DATA_BUDZET/user.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GIT/DATA_BUDZET/vezba.py" beforeDir="false" afterPath="$PROJECT_DIR$/DATA_BUDZET/vezba.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bank_logs/logovi.txt" beforeDir="false" afterPath="$PROJECT_DIR$/bank_logs/logovi.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/budzetiranje/budzet.py" beforeDir="false" afterPath="$PROJECT_DIR$/budzetiranje/budzet.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OS/OS.py" beforeDir="false" afterPath="$PROJECT_DIR$/OS/OS.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OS/OS_info.py" beforeDir="false" afterPath="$PROJECT_DIR$/OS_info.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OS/task_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/OS/task_manager.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +45,7 @@
     <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 1
+  &quot;associatedIndex&quot;: 2
 }</component>
   <component name="ProjectId" id="2vits5XKAu303kx6pReWEdsjCKm" />
   <component name="ProjectViewState">
@@ -69,6 +64,8 @@
     "Python.OS_info.executor": "Run",
     "Python.Pavle main.executor": "Run",
     "Python.Pavle_main.executor": "Run",
+    "Python.Web_Browser.executor": "Run",
+    "Python._pydev_execfile.executor": "Run",
     "Python.budzet.executor": "Run",
     "Python.def vezbanje.executor": "Run",
     "Python.def_domaci_9.executor": "Run",
@@ -107,71 +104,16 @@
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Pavle\OneDrive\Desktop\Python" />
+      <recent name="C:\Users\Pavle\OneDrive\Desktop\Python\DATA_BUDZET" />
       <recent name="C:\Users\Pavle\OneDrive\Desktop\Python\GIT\OS" />
       <recent name="C:\Users\Pavle\OneDrive\Desktop\Python\bank_logs" />
       <recent name="C:\Users\Pavle\OneDrive\Desktop\Python\budzetiranje" />
-      <recent name="C:\Users\Pavle\OneDrive\Desktop\Python\GIT\DATA_BUDZET" />
     </key>
-  </component>
-  <component name="RunManager">
-    <configuration name="Mentorstva_zadaci" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Python" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\Users\Pavle\OneDrive\Desktop\Python\Mentorstva_zadaci.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="gamenumberguessing" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Python" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\Users\Pavle\OneDrive\Desktop\Python\gamenumberguessing.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Python.gamenumberguessing" />
-        <item itemvalue="Python.Mentorstva_zadaci" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-6a121458b545-JavaScript-PY-251.25410.122" />
-        <option value="bundled-python-sdk-880ecab49056-36ea0e71a18c-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-251.25410.122" />
+        <option value="bundled-python-sdk-e0ed3721d81e-36ea0e71a18c-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-251.25410.159" />
       </set>
     </attachedChunks>
   </component>
@@ -228,7 +170,8 @@
       <workItem from="1747256776795" duration="84000" />
       <workItem from="1747291011650" duration="980000" />
       <workItem from="1747292275295" duration="8917000" />
-      <workItem from="1747386416680" duration="21893000" />
+      <workItem from="1747386416680" duration="22982000" />
+      <workItem from="1747469650246" duration="765000" />
     </task>
     <task id="LOCAL-00001" summary="my first commit">
       <option name="closed" value="true" />
@@ -510,7 +453,15 @@
       <option name="project" value="LOCAL" />
       <updated>1747173558451</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="OS info CPU">
+      <option name="closed" value="true" />
+      <created>1747420018462</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1747420018462</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -564,7 +515,8 @@
     <MESSAGE value="file.write" />
     <MESSAGE value="budget solved" />
     <MESSAGE value="ATM commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="ATM commit" />
+    <MESSAGE value="OS info CPU" />
+    <option name="LAST_COMMIT_MESSAGE" value="OS info CPU" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

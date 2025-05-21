@@ -1,5 +1,5 @@
 import platform
-from platform import python_version, python_build
+from platform import python_version, python_build, system
 
 python_version = platform.python_version()
 python_build = platform.python_build()
@@ -12,4 +12,17 @@ else:
     print("Your Python version is up to date. Have a great day!\n")
 
 
-input("Press 'Enter' key to exit. ")
+
+
+info = platform.system()
+print(info)
+
+version = platform.python_version()
+processor = platform.processor()
+python_version = platform.python_version()
+arch = platform.architecture()
+machine = platform.machine()
+edit = platform.win32_edition()
+
+
+print(f"{info} | {version} | {processor} | {python_version} | {arch} | {machine} | {edit}")
