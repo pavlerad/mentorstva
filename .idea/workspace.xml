@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="456f608f-d194-4cb0-a7a5-a07afbeb7cc2" name="Changes" comment="OS info CPU">
-      <change afterPath="$PROJECT_DIR$/Web_Browser.py" afterDir="false" />
+    <list default="true" id="456f608f-d194-4cb0-a7a5-a07afbeb7cc2" name="Changes" comment="Web_Browser.py">
+      <change afterPath="$PROJECT_DIR$/OS/regex.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platforma.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/processing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sistemski.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OS/OS.py" beforeDir="false" afterPath="$PROJECT_DIR$/OS/OS.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OS/OS_info.py" beforeDir="false" afterPath="$PROJECT_DIR$/OS_info.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OS/task_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/OS/task_manager.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OS_info.py" beforeDir="false" afterPath="$PROJECT_DIR$/OS/OS_info.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,6 +77,7 @@
     "Python.glavni.executor": "Run",
     "Python.hangman.executor": "Run",
     "Python.kalendar.executor": "Run",
+    "Python.kornjaca.executor": "Run",
     "Python.main.executor": "Run",
     "Python.mentorstva_main.executor": "Run",
     "Python.methods.executor": "Run",
@@ -83,7 +85,11 @@
     "Python.novi.executor": "Run",
     "Python.pavle_info.executor": "Run",
     "Python.proba_is_digit.executor": "Run",
+    "Python.processing.executor": "Run",
+    "Python.regex.executor": "Run",
+    "Python.sistemski.executor": "Run",
     "Python.task_manager.executor": "Run",
+    "Python.turtle.executor": "Run",
     "Python.vezba.executor": "Run",
     "Python.vezbajson.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -104,10 +110,10 @@
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Pavle\OneDrive\Desktop\Python" />
+      <recent name="C:\Users\Pavle\OneDrive\Desktop\Python\OS" />
       <recent name="C:\Users\Pavle\OneDrive\Desktop\Python\DATA_BUDZET" />
       <recent name="C:\Users\Pavle\OneDrive\Desktop\Python\GIT\OS" />
       <recent name="C:\Users\Pavle\OneDrive\Desktop\Python\bank_logs" />
-      <recent name="C:\Users\Pavle\OneDrive\Desktop\Python\budzetiranje" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -461,7 +467,23 @@
       <option name="project" value="LOCAL" />
       <updated>1747420018462</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="Web_Browser.py">
+      <option name="closed" value="true" />
+      <created>1747858068488</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1747858068488</updated>
+    </task>
+    <task id="LOCAL-00038" summary="Web_Browser.py">
+      <option name="closed" value="true" />
+      <created>1747858187520</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1747858187520</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -491,7 +513,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="my first commit" />
     <MESSAGE value="my second commit" />
     <MESSAGE value="my third commit" />
     <MESSAGE value="my fourth commit" />
@@ -516,7 +537,8 @@
     <MESSAGE value="budget solved" />
     <MESSAGE value="ATM commit" />
     <MESSAGE value="OS info CPU" />
-    <option name="LAST_COMMIT_MESSAGE" value="OS info CPU" />
+    <MESSAGE value="Web_Browser.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="Web_Browser.py" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
