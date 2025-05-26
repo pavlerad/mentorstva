@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="456f608f-d194-4cb0-a7a5-a07afbeb7cc2" name="Changes" comment="Web_Browser.py">
-      <change afterPath="$PROJECT_DIR$/OS/regex.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/platforma.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/processing.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sistemski.py" afterDir="false" />
+    <list default="true" id="456f608f-d194-4cb0-a7a5-a07afbeb7cc2" name="Changes" comment="commit 23.5">
+      <change afterPath="$PROJECT_DIR$/OS/regex1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OS_info.py" beforeDir="false" afterPath="$PROJECT_DIR$/OS/OS_info.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OS/regex.py" beforeDir="false" afterPath="$PROJECT_DIR$/OS/regex.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/processing.py" beforeDir="false" afterPath="$PROJECT_DIR$/processing.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,60 +51,63 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python.9 vezbanje def.executor": "Run",
-    "Python.9 vezbanje_def.executor": "Run",
-    "Python.Domaci_8.executor": "Run",
-    "Python.Mentorstva zadaci.executor": "Run",
-    "Python.Mentorstva_zadaci.executor": "Run",
-    "Python.OS.executor": "Run",
-    "Python.OS_info.executor": "Run",
-    "Python.Pavle main.executor": "Run",
-    "Python.Pavle_main.executor": "Run",
-    "Python.Web_Browser.executor": "Run",
-    "Python._pydev_execfile.executor": "Run",
-    "Python.budzet.executor": "Run",
-    "Python.def vezbanje.executor": "Run",
-    "Python.def_domaci_9.executor": "Run",
-    "Python.domaci_6.executor": "Run",
-    "Python.domaci_7.executor": "Run",
-    "Python.files.executor": "Run",
-    "Python.gamenumberguessing.executor": "Run",
-    "Python.glavni.executor": "Run",
-    "Python.hangman.executor": "Run",
-    "Python.kalendar.executor": "Run",
-    "Python.kornjaca.executor": "Run",
-    "Python.main.executor": "Run",
-    "Python.mentorstva_main.executor": "Run",
-    "Python.methods.executor": "Run",
-    "Python.metode.executor": "Run",
-    "Python.novi.executor": "Run",
-    "Python.pavle_info.executor": "Run",
-    "Python.proba_is_digit.executor": "Run",
-    "Python.processing.executor": "Run",
-    "Python.regex.executor": "Run",
-    "Python.sistemski.executor": "Run",
-    "Python.task_manager.executor": "Run",
-    "Python.turtle.executor": "Run",
-    "Python.vezba.executor": "Run",
-    "Python.vezbajson.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "run.code.analysis.last.selected.profile": "aDefault",
-    "settings.editor.selected.configurable": "editor.preferences.completion",
-    "two.files.diff.last.used.file": "C:/Users/Pavle/OneDrive/Desktop/Python/Mentorstva_zadaci.py",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.9 vezbanje def.executor&quot;: &quot;Run&quot;,
+    &quot;Python.9 vezbanje_def.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Domaci_8.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Mentorstva zadaci.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Mentorstva_zadaci.executor&quot;: &quot;Run&quot;,
+    &quot;Python.OS.executor&quot;: &quot;Run&quot;,
+    &quot;Python.OS_info.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Pavle main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Pavle_main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Web_Browser.executor&quot;: &quot;Run&quot;,
+    &quot;Python._pydev_execfile.executor&quot;: &quot;Run&quot;,
+    &quot;Python.bear.executor&quot;: &quot;Run&quot;,
+    &quot;Python.budzet.executor&quot;: &quot;Run&quot;,
+    &quot;Python.def vezbanje.executor&quot;: &quot;Run&quot;,
+    &quot;Python.def_domaci_9.executor&quot;: &quot;Run&quot;,
+    &quot;Python.domaci_6.executor&quot;: &quot;Run&quot;,
+    &quot;Python.domaci_7.executor&quot;: &quot;Run&quot;,
+    &quot;Python.files.executor&quot;: &quot;Run&quot;,
+    &quot;Python.gamenumberguessing.executor&quot;: &quot;Run&quot;,
+    &quot;Python.glavni.executor&quot;: &quot;Run&quot;,
+    &quot;Python.hangman.executor&quot;: &quot;Run&quot;,
+    &quot;Python.kalendar.executor&quot;: &quot;Run&quot;,
+    &quot;Python.kornjaca.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.mentorstva_main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.methods.executor&quot;: &quot;Run&quot;,
+    &quot;Python.metode.executor&quot;: &quot;Run&quot;,
+    &quot;Python.njanja.executor&quot;: &quot;Run&quot;,
+    &quot;Python.novi.executor&quot;: &quot;Run&quot;,
+    &quot;Python.pavle_info.executor&quot;: &quot;Run&quot;,
+    &quot;Python.proba_is_digit.executor&quot;: &quot;Run&quot;,
+    &quot;Python.processing.executor&quot;: &quot;Run&quot;,
+    &quot;Python.regex.executor&quot;: &quot;Run&quot;,
+    &quot;Python.regex1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.sistemski.executor&quot;: &quot;Run&quot;,
+    &quot;Python.task_manager.executor&quot;: &quot;Run&quot;,
+    &quot;Python.turtle.executor&quot;: &quot;Run&quot;,
+    &quot;Python.vezba.executor&quot;: &quot;Run&quot;,
+    &quot;Python.vezbajson.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;aDefault&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.completion&quot;,
+    &quot;two.files.diff.last.used.file&quot;: &quot;C:/Users/Pavle/OneDrive/Desktop/Python/Mentorstva_zadaci.py&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Pavle\OneDrive\Desktop\Python" />
@@ -483,7 +484,15 @@
       <option name="project" value="LOCAL" />
       <updated>1747858187520</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="commit 23.5">
+      <option name="closed" value="true" />
+      <created>1748026590498</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1748026590498</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -513,7 +522,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="my second commit" />
     <MESSAGE value="my third commit" />
     <MESSAGE value="my fourth commit" />
     <MESSAGE value="my fifth commit" />
@@ -538,7 +546,8 @@
     <MESSAGE value="ATM commit" />
     <MESSAGE value="OS info CPU" />
     <MESSAGE value="Web_Browser.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="Web_Browser.py" />
+    <MESSAGE value="commit 23.5" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit 23.5" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -547,6 +556,11 @@
           <url>file://$PROJECT_DIR$/budzetiranje/budzet.py</url>
           <line>84</line>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/processing.py</url>
+          <line>22</line>
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

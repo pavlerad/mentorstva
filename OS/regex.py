@@ -22,7 +22,7 @@ else:
 
 
 
-# regex kojki proverava samo slova:
+# regex koji proverava samo slova:
 
 
 sentence = "I love Python"

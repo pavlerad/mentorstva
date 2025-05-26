@@ -11,7 +11,7 @@ import time
 
 #webbrowser.get('C:/Program Files/Google/Chrome/Application/chrome.exe %s').open('https://www.youtube.com/watch?v=gsZiaNeD-Ms')
 
-#toaster = ToastNotifier()
+#toaster = ToastNotifier()\
 #toaster.show_toast("Pavle", random.choice(messages), duration=5)
 #time.sleep(3)
 
