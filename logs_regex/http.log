@@ -1,0 +1,20 @@
+2025-27-5 12:10:01 Error 404: Page not found
+2025-27-5 12:10:05 Status 200: OK
+2025-27-5 12:10:10 Error 500: Internal Server Error
+2025-27-5 12:10:15 Status 201: Created
+2025-27-5 12:10:20 Error 403: Forbidden
+2025-27-5 12:10:25 Status 204: No Content
+2025-27-5 12:10:30 Error 400: Bad Request
+2025-27-5 12:10:35 Status 301: Moved Permanently
+2025-27-5 12:10:40 Error 401: Unauthorized
+2025-27-5 12:10:45 Status 200: OK
+2025-27-5 12:10:50 Error 502: Bad Gateway
+2025-27-5 12:10:55 Status 202: Accepted
+2025-27-5 12:11:00 Error 503: Service Unavailable
+2025-27-5 12:11:05 Status 304: Not Modified
+2025-27-5 12:11:10 Error 408: Request Timeout
+2025-27-5 12:11:15 Status 200: OK
+2025-27-5 12:11:20 Error 429: Too Many Requests
+2025-27-5 12:11:25 Status 302: Found
+2025-27-5 12:11:30 Error 410: Gone
+2025-27-5 12:11:35 Status 226: IM Used

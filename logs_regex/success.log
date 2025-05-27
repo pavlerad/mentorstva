@@ -1,0 +1,10 @@
+2025-27-5 12:10:05 Status 200: OK
+2025-27-5 12:10:15 Status 201: Created
+2025-27-5 12:10:25 Status 204: No Content
+2025-27-5 12:10:35 Status 301: Moved Permanently
+2025-27-5 12:10:45 Status 200: OK
+2025-27-5 12:10:55 Status 202: Accepted
+2025-27-5 12:11:05 Status 304: Not Modified
+2025-27-5 12:11:15 Status 200: OK
+2025-27-5 12:11:25 Status 302: Found
+2025-27-5 12:11:35 Status 226: IM Used

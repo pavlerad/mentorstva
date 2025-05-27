@@ -88,5 +88,13 @@ else:
 
 
 
+emails = "pavle11radovanovic@gmail.com"
+
+mejl_sablon = r"^[\w\.-]+[\d]+[\w\.-]+@[\w\.-]+\.\w"
 
 
+
+if re.match(mejl_sablon, emails):
+    print("yes")
+else:
+    print("not")
