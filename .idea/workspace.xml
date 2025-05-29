@@ -4,16 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="456f608f-d194-4cb0-a7a5-a07afbeb7cc2" name="Changes" comment="commit 26.5">
-      <change afterPath="$PROJECT_DIR$/REGEX/errors.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/REGEX/regex_2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/analyzer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs_regex/errors.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs_regex/http.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs_regex/success.log" afterDir="false" />
+    <list default="true" id="456f608f-d194-4cb0-a7a5-a07afbeb7cc2" name="Changes" comment="commit 27.5">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OS/regex.py" beforeDir="false" afterPath="$PROJECT_DIR$/REGEX/regex.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OS/regex1.py" beforeDir="false" afterPath="$PROJECT_DIR$/REGEX/regex1.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -508,7 +500,15 @@
       <option name="project" value="LOCAL" />
       <updated>1748242794671</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="commit 27.5">
+      <option name="closed" value="true" />
+      <created>1748370961916</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1748370961916</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -538,7 +538,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="my fourth commit" />
     <MESSAGE value="my fifth commit" />
     <MESSAGE value="my sixth commit" />
     <MESSAGE value="my sixth1 commit" />
@@ -563,7 +562,8 @@
     <MESSAGE value="Web_Browser.py" />
     <MESSAGE value="commit 23.5" />
     <MESSAGE value="commit 26.5" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit 26.5" />
+    <MESSAGE value="commit 27.5" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit 27.5" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
