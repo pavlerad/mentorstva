@@ -1,0 +1,207 @@
+#print(f"Ukupna cena hleba je: {total_bread_price: .2f} RSD")
+#print(f"Ukupna cena vode je: {total_water_price: .2f} RSD")
+#print(f"Ukupna cena mleka je: {total_milk_price: .2f} RSD")
+#print("---------------------------------------------------")
+#average_bread_price = total_bread_price / total_shops
+#print(f"Prosecna cena hleba je:{average_bread_price: .2f} RSD")
+#average_water_price = total_water_price / total_shops
+#print(f"Prosecna cena vode je:{average_water_price: .2f} RSD")
+#average_milk_price = total_milk_price / total_shops
+#print(f"Prosecna cena mleka je:{average_milk_price: .2f} RSD")
+
+sum = total_milk_price + total_bread_price + total_water_price
+print("-------------------------------------------------------")
+print(f"Zbir cena iznosi: {sum} RSD.")
+
+print("----------------------------------------------------------")
+
+maxi_bread = shops["Maxi"]["Hleb"]
+print(f"Cena hleba u Maxi radnji iznosi: {maxi_bread: .2f} RSD")
+univer_bread = shops["Univerexport"]["Hleb"]
+print(f"Cena hleba u Univeru iznosi: {univer_bread: .2f} RSD")
+lidl_bread = shops["Lidl"]["Hleb"]
+print(f"Cena hleba u Lidlu je: {lidl_bread: .2f} RSD")
+shop_go_bread = shops["Shop&Go"]["Hleb"]
+print(f"Cena hleba u Shop&Go radnji iznosi: {shop_go_bread: .2f} RSD")
+
+
+#def total_bread_price(a, b, c, d):
+   # x = a + b + c + d
+   # return x
+
+#print("Ukupna cena hleba je: ")
+#print(total_bread_price(maxi_bread, univer_bread, shop_go_bread, lidl_bread), "RSD")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+students = [
+
+    {"name": "Pavle",
+     "score": 75,
+     "active": True},
+
+    {"name": "Filip",
+     "score": 45,
+     "active": True},
+
+    {"name": "Milos",
+     "score": 64,
+     "active": False},
+
+    {"name": "Dragana",
+     "score": 90,
+     "active": True},
+
+    {"name": "Milica",
+     "score": 85,
+     "active": True}
+
+]
+
+
+for student in students:
+    if not student["active"]:
+        continue
+
+    if student["score"] <= 50:
+            student["grade"] = "D"
+
+    elif student["score"] >= 51 and student["score"] < 60:
+            student["grade"] = "C"
+
+    elif student["score"] >= 60 and student["score"] < 70:
+            student["grade"] = "B"
+
+    elif student["score"] >= 70 and student["score"] < 85:
+            student["grade"] = "B+"
+
+    elif student["score"] >= 85 and student["score"] < 95:
+            student["grade"] = "A"
+
+    else:
+        print("Student grade is extraordinary!")
+
+print(students)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+products = {
+            "Hleb":
+                {"cena": 200,
+                 "kolicina": 150},
+
+            "Mleko":
+                {"cena": 250,
+                "kolicina": 200},
+
+            "Jogurt":
+                {"cena": 400,
+                 "kolicina": 450},
+
+            }
+
+for keys, values in products.items():
+    print(keys, values)
+
+choice = None
+allowed_options = ["A", "B", "C"]
+
+while choice not in allowed_options:
+    choice =  input(f"\nSta zelite da uradite sa proizvodom? {" , ".join(allowed_options)}: ")
+
+    if choice == "A":
+        choice = None
+        product = None
+        while product not in products:
+            product = input("Koji proizvod zelite da obrisete? ").title()
+            if product in products:
+                del products[product]
+                print("\nProizvod",product,"je obrisan.\n")
+                if len(products) > 0:
+                    print("Ostali su proizvodi: \n")
+                    for keys, values in products.items():
+                        print(keys, values)
+                    choice = None
+                else:
+                    print("Nema vise proizvoda u korpi.")
+                    break
+        input("\nPritisnite taster 'Enter' da biste izasli.")
+
+    elif choice == "B":
+        choice = None
+        product = None
+        product = input("Unesite ime proizvoda koji zelite da dodate: ").title()
+        while product in products or product is None:
+            product = input("Unesite ime proizvoda koje se ne nalazi na listi: ").title()
+        print("\nProizvod",product,"je uspesno dodat na listu.\n")
+        products[product] = {}
+        price  = None
+        quantity = None
+        while not price and not quantity:
+            print("Upozorenje: Cena i kolicina ne smeju biti 0.")
+            if not price and not quantity:
+                price = int(input("Unesite cenu proizvoda: "))
+                quantity = int(input("Unesite kolicinu proizvoda: "))
+                if quantity and price <= 0:
+                    print("Cena i kolicina ne smeju biti 0")
+                else:
+                    products[product] = {"cena" : price, "kolicina" : quantity}
+                    print("\n")
+                    print("Vasi proizvodi: \n")
+                    for keys, values in products.items():
+                        print(keys, values)
+                    choice = None
+        input("\nPritisnite taster 'Enter' za izlazak iz petlje.")
+
+    elif choice == "C":
+        choice = None
+        print("Vasi proizvodi sa liste su:\n")
+        for keys, values in products.items():
+            print(keys, values)
+
+
+        input("\nPritisnite taster 'Enter' za izlazak iz programa.")

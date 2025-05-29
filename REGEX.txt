@@ -1,0 +1,17 @@
+REGEX
+
+
+
+r - tretiraj sve kao tekst unutar stringa
+^ - trazimo sve od pocetka stringa
+\d - match - slaganje
++ - nastavlja se trazenje
+$ - kraj stringa
+\w - proverava se da li postoje slova
+\. - proverava da li postoji tacka
+a*
+a?
+a+
+a{n}
+a{n,}
+a{n,m}

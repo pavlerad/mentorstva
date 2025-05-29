@@ -1,0 +1,76 @@
+
+Čučanj (4x3pon, 100kg)
+Benč press (4x6 pon, 80kg)
+
+
+Zgibovi (5-7pon) + propadanja (10-12pon)
+
+Kosa klupa grudi: 
+
+razvlačenje sa bućicama (3x7pon, 17.5 - 20kg)
+
+triceps sa čela (skull crusher ili ez šipka): 3x10pon
+
+hammer biceps: 3x7pon, 15kg ili Biceps na kosoj klupi (3x7pon, 15kg)
+
+sklekovi + guma nadole (naizmenično) 3x10pon
+
+
+
+guma razvlacenje za ledja
+
+roler (2x7pon)
+
+
+
+
+
+Mrtvo dizanje (4x3pon, 125kg)
+Potisak (4x6pon, 55kg)
+
+
+Zgibovi (5-7pon) + propadanja (10-12pon)
+
+Lednjaci sa bućicama (3x7pon, 10kg)
+
+
+Potisak za grudi na kosoj klupi ili sa girijama stojeći (3x10pon, 20kg)
+
+Ez šipka biceps (3x10, 30kg)
+
+RDL za ledja (3x10pon, 40kg)
+
+letenje (3x7pon, 10kg)
+
+testera (3x10pon, 30kg)
+
+na kosoj klupi povlacenje (3x10pon, 25kg)
+
+majmuni (2x10pon, 40kg)
+
+
+
+
+
+
+git hub = url_AM15
+
+djilkosh
+
+
+scoreboard
+
+NO
+LAMBDA
+SOLUTION
+# def get_score(item):
+#     return item[1]
+#
+# # "Toma": 5
+# sorted_scores = sorted(scoreboard.items(), key=get_score)
+
+https://pastebin.com/sQ5EQ1mm
+
+
+
+

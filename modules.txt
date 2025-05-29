@@ -1,0 +1,20 @@
+modules: 
+
+
+random
+math
+time
+datetime
+subprocess.Popen
+webbrowser.get()
+
+
+from win.10.toast import ToastNotifier ?
+tosater = ToastNotifier
+toaster.show_toast()
+
+
+import threading -->
+
+nova_varijabla = threading.Thread(target= )
+nova_varijabla.start()

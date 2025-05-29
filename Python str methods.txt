@@ -1,0 +1,401 @@
+Lubarda25!
+
+
+131
+
+
+
+
+
+
+#kalkulator ukupne podignute tezine
+
+
+
+metod1 = {"sklekovi" : "20 ponavljanja po 40kg",
+          "cucnjevi" : "15 ponavljanja po 60kg",
+          "propadanja" : "7 ponavljanja",
+          "zgibovi" : "7 ponavljanja"}
+
+metod2 = {"plank" : "20 ponavljanja",
+          "benchpress" : "5 ponavljanja po 60kg",
+          "overhead press": "4 ponavljanja po 40kg"}
+
+metod3 = {"Sprint" : "5 minuta",
+          "Sklekovi" : "3 serije po 10 ponavljanja",
+          "Zgibovi" : "3 serije po 7 ponavljanja",
+          "Biceps" : "Bucice 15kg, 3 serije, 7 ponavljaja",
+          "Triceps" : "Ekstenzija - 16kg, 7 ponavljanja",
+          "roler" : "3 serije po 12 ponavljanja"}
+
+training_mode = {"CUT" : 1,
+                 "GAINER":2,
+                 "LOSING WEIGHT PROGRESS":3}
+
+
+tezina = int(input("Molimo Vas da unesete svoju tezinu (KG): "))
+zelja = input("Da li zelite da smrsate ili dobijete na tezini? ").lower()
+
+import random
+
+while True:
+
+    if zelja == "Da smrsam" or tezina >= 95:
+        print("\nFenomenalno!!!\n\nU nastavku mozete pogledati sledeci program:\n")
+
+        for keys, values in metod1.items():
+            print(f'{keys} - {values}')
+
+
+    elif zelja == "Da dobijem na tezini" or tezina <= 89:
+        print("\n\nOdlicno! Evo programa:\n\n")
+
+        for keys, values in metod2.items():
+            print(f'{keys} - {values}')
+
+
+    else:
+        input("\n\nPritisnite taster 'enter' za izlazak iz upita")
+    break
+
+import time
+
+
+print("U nastavku cemo vam predstaviti trening planove:")
+
+
+print("\n\t------------------------------------\n")
+
+for keys, values in training_mode.items():
+    print(f'{keys} - {values}')
+
+options = training_mode.items()
+choice = int(input("\n\nSada izaberite svoj trening plan: \n"))
+
+
+while choice not in options:
+
+    if choice == 1:
+        print("\nVasa opcija je: CUT")
+        print("\nU nastavku vam prosledjujemo training plan: ")
+        for keys, values in metod1.items():
+            print(f'\n{keys} - {values}')
+        input("\nIzlazak iz programa putem tastera 'Enter'.\n")
+
+    elif choice == 2:
+        print("Vasa opcija je GAINER\n")
+        print("U nastavku vam prosledjujemo training plan: ")
+        for keys, values in metod2.items():
+            print(f'\n{keys} - {values}', '\n')
+        input("\nIzlazak iz programa putem tastera 'Enter'.\n")
+
+    elif choice == 3:
+        print("Vasa opcija je: LOSING WEIGHT PROGRESS")
+        print("U nastavku vam prosledjujemo training plan: ")
+
+        for keys, values in metod3.items():
+            print(f'\n{keys} - {values}')
+        input("Izlazak iz programa putem tastera 'Enter'.\n")
+
+    else:
+        print("Molimo ponovite upit.")
+
+    break
+
+
+
+
+
+for tries in range(5, 0, -1):
+    tries -= 1
+    tajni_pin = int(input("Please enter your PIN: "))
+    print("Incorrect PIN. You have", tries, "tries left!")
+    if tries == 0:
+        print("\n---------------YOUR CARD IS BLOCKED--------------")
+        print("\n")
+        print(f"Please contact your bank at: {bank_telephone} ")
+    break
+
+
+
+
+
+  else:
+                    print("Withdrawal in progress...")
+                    time.sleep(3)
+                    print("\nPlease collect your amount of cash.")
+                    print("----------------------------------------")
+
+                    break
+
+                for tries in range(5, 0, -1):
+                    amount = int(input("Please enter the amount: "))
+                    print("Incorrect! You have", tries, "tries left!")
+                if tries >= 5:
+                    print("You card has been blocked.")
+                else:
+                    print()
+                if choice == 3:
+                    print("Goodbye. Please take you card.")
+                break
+
+
+
+
+
+import time
+kasa = []
+proizvod = input("Unesite ime proizvoda: ")
+
+
+while len(kasa) <=2:
+    kasa.append(proizvod)
+    proizvod = input("Unesite ime proizvoda: ")
+    if len(kasa) == 3:
+        print("\nStop! Maksimalan dozvoljen unos proizvoda je:", len(kasa), "\n")
+        print("Vasa kasa izgleda ovako: \n")
+        for i in kasa:
+            time.sleep(3)
+            print(i)
+
+
+
+
+
+
+kasa = []
+
+while len(kasa) < 3:
+    proizvod = input("Unesite ime proizvoda: ")
+    kasa.append(proizvod)
+    print(kasa)
+
+
+
+
+
+
+students = [
+   # {
+
+        "name": "Toma"
+        ,"score": 1500,
+        "active": False
+
+     },
+
+    {
+
+
+     "name": "Pavle"
+    ,"score": 2000,
+     "active": True
+
+     },
+
+    {
+        "name": "Marko",
+        "score": 3000,
+        "active": True
+
+     },
+
+    {
+        "name": "Uros"
+        ,"score": 4000,
+        "active": True
+
+     },
+
+    {
+        "name": "Filip",
+        "score": 5000,
+        "active": True
+
+     }
+        ]
+
+
+
+
+for student in students:
+    if student["active"]:
+        print(student["name"])
+    if student["score"] > 1000 and student["score"] <= 2999:
+        print("grade - B")
+    if student["score"] >= 3000 and student["score"] <= 5000:
+        print("grade - A")
+
+
+
+
+
+
+
+students = [
+
+    {"name": "Pavle",
+     "score": 20,
+     "active": True},
+
+    {"name":"Marko",
+     "score": 50,
+     "active": True},
+
+    {"name": "Filip",
+     "score":70,
+     "active": False},
+
+    {"name": "Milos",
+     "score": 90,
+     "active":True},
+
+    {"name": "Danijela",
+     "score": 97,
+     "active": True}
+
+    ]
+
+
+
+
+
+
+
+
+for student in students:
+
+
+    if student['active'] == False:
+        continue
+
+    if 20 <= student["score"] and student["score"] <= 50:
+            student["grade"] = "D"
+    elif student["score"] >= 51 and student["score"] <= 70:
+            student["grade"] = "C"
+    elif student["score"] > 71 and student["score"] <= 80:
+            student["grade"] = "B"
+    elif student["score"] > 81 and student["score"] == 90:
+            student["grade"] = "B+"
+    elif student["score"] > 90 and student["score"] <= 100:
+         student["grade"] = "A"
+    else:
+        print("Student not eligible.")
+
+    print(students)
+
+
+
+
+
+
+shops = {
+
+    "Maxi":
+
+         {"hleb": 150,
+          "jaja": 200,
+          "mleko": 300}
+    ,
+
+    "Lidl":
+
+         {"hleb": 200,
+        "jaja": 300,
+         "mleko": 450}
+    ,
+
+    "Univerexport":
+
+         {"hleb": 250,
+          "jaja": 350,
+          "mleko": 400}
+    ,
+
+}
+
+
+
+for shop_name, items in shops.items():
+    print(f"{shop_name} - {items["hleb"]}")   ===    for keys, values in shops.items:
+							   print(f"{keys} - {values}")
+
+
+for shop.name, items in shops.items():
+	print(items["Hleb"])
+
+
+for keys in shops:
+   print(item["Hleb"])
+
+
+
+
+
+
+
+
+
+
+import time
+
+
+shops = {
+
+
+    "Maxi": {"hleb": 150,
+             "mleko": 200,
+             "jaja": 300},
+
+    "Univerexport": {"hleb": 200,
+                     "mleko": 300,
+                     "jaja": 400},
+
+    "Lidl": {"hleb": 245,
+             ",mleko": 340,
+             "jaja": 450},
+
+    "Idea": {"hleb": 300,
+             "mleko": 400,
+             "jaja": 500},
+
+
+    "Aman": {
+             "mleko": 400,
+             "jaja": 600}
+
+}
+
+# shop_name = key
+
+shop_number = len(shops)
+print(f"Your total number of shops is: ", shop_number,"\n")
+
+total_bread_price = 0
+total_bread_shops = 0
+max_bread_price = 0
+max_bread_price_shop = 0
+
+print("You bread price sum is: \n")
+
+for shop_name, items in shops.items():
+
+    if "hleb" in items:
+        time.sleep(3)
+        total_bread_price += items["hleb"]
+        total_bread_shops += 1
+        if max_bread_price < items["hleb"]:
+            max_bread_price = items["hleb"]
+            max_bread_price_shop = shop_name
+    print(total_bread_price)
+
+print(f"\nYour total number of bread shops is: ", total_bread_shops, "\n")
+print("Your maximum price of bread is: ",max_bread_price,"RSD, found in shop named: ", max_bread_price_shop,"\n")
+
+
+average_bread_price = total_bread_price / total_bread_shops
+
+
+
+
+input("\nPress enter key to exit.")
