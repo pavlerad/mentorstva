@@ -18,3 +18,13 @@
 2025-27-5 12:11:10 Error 408: Request Timeout
 2025-27-5 12:11:20 Error 429: Too Many Requests
 2025-27-5 12:11:30 Error 410: Gone
+2025-27-5 12:10:01 Error 404: Page not found
+2025-27-5 12:10:10 Error 500: Internal Server Error
+2025-27-5 12:10:20 Error 403: Forbidden
+2025-27-5 12:10:30 Error 400: Bad Request
+2025-27-5 12:10:40 Error 401: Unauthorized
+2025-27-5 12:10:50 Error 502: Bad Gateway
+2025-27-5 12:11:00 Error 503: Service Unavailable
+2025-27-5 12:11:10 Error 408: Request Timeout
+2025-27-5 12:11:20 Error 429: Too Many Requests
+2025-27-5 12:11:30 Error 410: Gone

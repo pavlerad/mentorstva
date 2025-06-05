@@ -1,0 +1,67 @@
+
+
+# MySQL - sistem kojikm se upravlja bazama podataka
+# SQL - Structured Query Language
+
+
+MSSql - Microsoftova baza
+Postgre -
+
+
+
+Database = baze
+Tables = tabele
+
+Database = WebProdavnica
+Tables = korisnici
+            id - broj (jedinstven broj, JMBG npr)
+             -> ime
+             -> tip: INT (BIGINT, SMALLINT, TINYINT..), VARCHAR (velicina), ENUM/DECIMAL/FLOAT/DOUBLE..., TEXT
+             -> KEY -> PRIMARY KEY : stavlja se na polje, to je onda glavno i jedinstveno poljem, mora se postaviti
+             -> NULL / NOT NULL
+                    -> NOT NULL : polje ne moze biti prazno
+                    -> Null: polje moze biti prazno
+
+        kupovina
+            id,
+            price,
+            total
+
+
+        korpa
+
+
+
+
+
+1 baza ima vise tabela, 1 tabela ima vise polja!!
+
+
+CRUD OPERATIONS = create, read, update, delete
+
+Query = upit ka bazi za odredjene podatke
+
+--> SELECT: UZMI PODATKE
+    SELECT name FROM users ---> uzmi imena od korisnika
+
+
+---> INSERT INTO:  Upisujemo podatke u neku bazu
+        INSERT INTO users  --> napravi novog korisnika
+
+---> DELETE: brisemo podatke iz baze
+
+    DELETE FROM users WHERE name = "Toma" --> Brisemo korisnika koji se zove Toma iz baze podataka
+
+
+---> UPDATE: azuriranje podataka u bazi, npr menjamo ime nekog korisnika u tabeli users
+
+
+NACINI ZA KONEKCIJU:
+
+--> PyCharm
+--> MySQL Workbench
+--> Datagrip
+--> CMD (preko terminala)
+
+
+
