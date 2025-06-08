@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="456f608f-d194-4cb0-a7a5-a07afbeb7cc2" name="Changes" comment="commit 5.6">
-      <change afterPath="$PROJECT_DIR$/py_sql.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/fc53241d-6c26-448d-9181-04c6edfbc93e.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/fc53241d-6c26-448d-9181-04c6edfbc93e.xml" afterDir="false" />
+    <list default="true" id="456f608f-d194-4cb0-a7a5-a07afbeb7cc2" name="Changes" comment="commit 8.6">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OS/task_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/task_manager.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_sql.py" beforeDir="false" afterPath="$PROJECT_DIR$/py_sql.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -195,7 +192,7 @@
       <workItem from="1749129545890" duration="4546000" />
       <workItem from="1749136349765" duration="6027000" />
       <workItem from="1749197617325" duration="2549000" />
-      <workItem from="1749376939377" duration="6972000" />
+      <workItem from="1749376939377" duration="8790000" />
     </task>
     <task id="LOCAL-00001" summary="my first commit">
       <option name="closed" value="true" />
@@ -557,7 +554,15 @@
       <option name="project" value="LOCAL" />
       <updated>1749142612015</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="commit 8.6">
+      <option name="closed" value="true" />
+      <created>1749384724760</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1749384724760</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -587,7 +592,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="my sixth1 commit" />
     <MESSAGE value="my  commit again 7" />
     <MESSAGE value="data json" />
     <MESSAGE value="data json W + R" />
@@ -612,7 +616,8 @@
     <MESSAGE value="commit 27.5" />
     <MESSAGE value="commit 29.5" />
     <MESSAGE value="commit 5.6" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit 5.6" />
+    <MESSAGE value="commit 8.6" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit 8.6" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -632,7 +637,7 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Python$methods.coverage" NAME="methods Coverage Results" MODIFIED="1746982019471" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/OS_info_py$py_sql.coverage" NAME="py_sql Coverage Results" MODIFIED="1749384406907" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/OS_info_py$py_sql.coverage" NAME="py_sql Coverage Results" MODIFIED="1749388939495" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python$hangman.coverage" NAME="hangman Coverage Results" MODIFIED="1746467580502" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/GIT" />
     <SUITE FILE_PATH="coverage/Python$pavle_info.coverage" NAME="pavle_info Coverage Results" MODIFIED="1746474596677" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/GIT/data" />
     <SUITE FILE_PATH="coverage/Python$gamenumberguessing.coverage" NAME="gamenumberguessing Coverage Results" MODIFIED="1747292886891" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />

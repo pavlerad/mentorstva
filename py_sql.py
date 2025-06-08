@@ -23,13 +23,17 @@ input("\nPress 'Enter' key to exit.\n")
 
 
 cursor = connection.cursor()
-cursor.execute(("UPDATE users SET password = 'Remco123' WHERE id = 1"))
+
 connection.commit()
 
 
-def create_user(username, password, age):
-    cursor = connection.cursor()
-    cursor.execute(("INSERT INTO users (username, password, age) VALUES ('Pavle', 'Python250', 25)"))
+def create_user(con, username, password, age):
+    cursor = con.cursor()
+    query = "INSERT INTO users (username, password, age) VALUES (%s , %s, %s)"
+    cursor.execute(query, ("Yopa", "urlam55", 28))
     connection.commit()
 
-create_user('Pavle','Python250', 25)
+create_user(connection, 'Pavle', 'Python250', 25)
+
+
+cursor.close()
