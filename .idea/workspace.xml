@@ -4,13 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="456f608f-d194-4cb0-a7a5-a07afbeb7cc2" name="Changes" comment="commit 29.5">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ALGORITHMS/algorithms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SQL.txt" afterDir="false" />
+    <list default="true" id="456f608f-d194-4cb0-a7a5-a07afbeb7cc2" name="Changes" comment="commit 5.6">
+      <change afterPath="$PROJECT_DIR$/py_sql.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/fc53241d-6c26-448d-9181-04c6edfbc93e.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/fc53241d-6c26-448d-9181-04c6edfbc93e.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs_regex/errors.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs_regex/errors.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs_regex/success.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs_regex/success.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OS/task_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/task_manager.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,73 +52,74 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Python.9 vezbanje def.executor&quot;: &quot;Run&quot;,
-    &quot;Python.9 vezbanje_def.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Domaci_8.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Mentorstva zadaci.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Mentorstva_zadaci.executor&quot;: &quot;Run&quot;,
-    &quot;Python.OS.executor&quot;: &quot;Run&quot;,
-    &quot;Python.OS_info.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Pavle main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Pavle_main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Web_Browser.executor&quot;: &quot;Run&quot;,
-    &quot;Python.__init__.executor&quot;: &quot;Run&quot;,
-    &quot;Python._pydev_execfile.executor&quot;: &quot;Run&quot;,
-    &quot;Python.algorithms.executor&quot;: &quot;Run&quot;,
-    &quot;Python.analyzer.executor&quot;: &quot;Run&quot;,
-    &quot;Python.bear.executor&quot;: &quot;Run&quot;,
-    &quot;Python.budzet.executor&quot;: &quot;Run&quot;,
-    &quot;Python.def vezbanje.executor&quot;: &quot;Run&quot;,
-    &quot;Python.def_domaci_9.executor&quot;: &quot;Run&quot;,
-    &quot;Python.domaci_6.executor&quot;: &quot;Run&quot;,
-    &quot;Python.domaci_7.executor&quot;: &quot;Run&quot;,
-    &quot;Python.files.executor&quot;: &quot;Run&quot;,
-    &quot;Python.gamenumberguessing.executor&quot;: &quot;Run&quot;,
-    &quot;Python.glavni.executor&quot;: &quot;Run&quot;,
-    &quot;Python.hangman.executor&quot;: &quot;Run&quot;,
-    &quot;Python.kalendar.executor&quot;: &quot;Run&quot;,
-    &quot;Python.kornjaca.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.mentorstva_main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.methods.executor&quot;: &quot;Run&quot;,
-    &quot;Python.metode.executor&quot;: &quot;Run&quot;,
-    &quot;Python.njanja.executor&quot;: &quot;Run&quot;,
-    &quot;Python.novi.executor&quot;: &quot;Run&quot;,
-    &quot;Python.pavle_info.executor&quot;: &quot;Run&quot;,
-    &quot;Python.proba_is_digit.executor&quot;: &quot;Run&quot;,
-    &quot;Python.processing.executor&quot;: &quot;Run&quot;,
-    &quot;Python.regex.executor&quot;: &quot;Run&quot;,
-    &quot;Python.regex1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.regex_2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.sistemski.executor&quot;: &quot;Run&quot;,
-    &quot;Python.task_manager.executor&quot;: &quot;Run&quot;,
-    &quot;Python.turtle.executor&quot;: &quot;Run&quot;,
-    &quot;Python.vezba.executor&quot;: &quot;Run&quot;,
-    &quot;Python.vezbajson.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;aDefault&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors&quot;,
-    &quot;two.files.diff.last.used.file&quot;: &quot;C:/Users/Pavle/OneDrive/Desktop/Python/Mentorstva_zadaci.py&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.9 vezbanje def.executor": "Run",
+    "Python.9 vezbanje_def.executor": "Run",
+    "Python.Domaci_8.executor": "Run",
+    "Python.Mentorstva zadaci.executor": "Run",
+    "Python.Mentorstva_zadaci.executor": "Run",
+    "Python.OS.executor": "Run",
+    "Python.OS_info.executor": "Run",
+    "Python.Pavle main.executor": "Run",
+    "Python.Pavle_main.executor": "Run",
+    "Python.Web_Browser.executor": "Run",
+    "Python.__init__.executor": "Run",
+    "Python._pydev_execfile.executor": "Run",
+    "Python.algorithms.executor": "Run",
+    "Python.analyzer.executor": "Run",
+    "Python.bear.executor": "Run",
+    "Python.budzet.executor": "Run",
+    "Python.def vezbanje.executor": "Run",
+    "Python.def_domaci_9.executor": "Run",
+    "Python.domaci_6.executor": "Run",
+    "Python.domaci_7.executor": "Run",
+    "Python.files.executor": "Run",
+    "Python.gamenumberguessing.executor": "Run",
+    "Python.glavni.executor": "Run",
+    "Python.hangman.executor": "Run",
+    "Python.kalendar.executor": "Run",
+    "Python.kornjaca.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.mentorstva_main.executor": "Run",
+    "Python.methods.executor": "Run",
+    "Python.metode.executor": "Run",
+    "Python.njanja.executor": "Run",
+    "Python.novi.executor": "Run",
+    "Python.pavle_info.executor": "Run",
+    "Python.proba_is_digit.executor": "Run",
+    "Python.processing.executor": "Run",
+    "Python.py_sql.executor": "Run",
+    "Python.regex.executor": "Run",
+    "Python.regex1.executor": "Run",
+    "Python.regex_2.executor": "Run",
+    "Python.sistemski.executor": "Run",
+    "Python.task_manager.executor": "Run",
+    "Python.turtle.executor": "Run",
+    "Python.vezba.executor": "Run",
+    "Python.vezbajson.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "run.code.analysis.last.selected.profile": "aDefault",
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors",
+    "two.files.diff.last.used.file": "C:/Users/Pavle/OneDrive/Desktop/Python/Mentorstva_zadaci.py",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Pavle\OneDrive\Desktop\Python" />
@@ -193,7 +193,9 @@
       <workItem from="1747386416680" duration="22982000" />
       <workItem from="1747469650246" duration="765000" />
       <workItem from="1749129545890" duration="4546000" />
-      <workItem from="1749136349765" duration="4777000" />
+      <workItem from="1749136349765" duration="6027000" />
+      <workItem from="1749197617325" duration="2549000" />
+      <workItem from="1749376939377" duration="6972000" />
     </task>
     <task id="LOCAL-00001" summary="my first commit">
       <option name="closed" value="true" />
@@ -539,7 +541,23 @@
       <option name="project" value="LOCAL" />
       <updated>1748501834458</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="commit 5.6">
+      <option name="closed" value="true" />
+      <created>1749142459807</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1749142459807</updated>
+    </task>
+    <task id="LOCAL-00045" summary="commit 5.6">
+      <option name="closed" value="true" />
+      <created>1749142612015</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1749142612015</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -569,7 +587,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="my sixth commit" />
     <MESSAGE value="my sixth1 commit" />
     <MESSAGE value="my  commit again 7" />
     <MESSAGE value="data json" />
@@ -594,7 +611,8 @@
     <MESSAGE value="commit 26.5" />
     <MESSAGE value="commit 27.5" />
     <MESSAGE value="commit 29.5" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit 29.5" />
+    <MESSAGE value="commit 5.6" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit 5.6" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -614,6 +632,7 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Python$methods.coverage" NAME="methods Coverage Results" MODIFIED="1746982019471" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/OS_info_py$py_sql.coverage" NAME="py_sql Coverage Results" MODIFIED="1749384406907" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python$hangman.coverage" NAME="hangman Coverage Results" MODIFIED="1746467580502" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/GIT" />
     <SUITE FILE_PATH="coverage/Python$pavle_info.coverage" NAME="pavle_info Coverage Results" MODIFIED="1746474596677" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/GIT/data" />
     <SUITE FILE_PATH="coverage/Python$gamenumberguessing.coverage" NAME="gamenumberguessing Coverage Results" MODIFIED="1747292886891" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
